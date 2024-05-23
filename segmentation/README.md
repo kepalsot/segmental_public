@@ -1,1 +1,1 @@
-# Third phase of segmental, event segmentation (latent-cause inference)
+third phase of segmental, event segmentation (latent-cause inference)
