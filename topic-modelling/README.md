@@ -1,1 +1,1 @@
-modelling annotation data of movie clips with a topic model (latent dirichlet allocation)
+first phase of segmental, modelling annotation data of movie clips with a topic model (latent dirichlet allocation)
