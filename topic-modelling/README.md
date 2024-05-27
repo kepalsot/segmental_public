@@ -16,7 +16,7 @@ Lemmatize remaining tokens
 ## segmental_modelling.py
 Takes in aggregated annotations and applies a topic model (latent dirichlet allocation). The n_components hyperparameter (n-topics) was ultimately set to 100 after testing a range of topic counts. Inter-clip correlation was preserved at 100 topics while also capturing greater intra-clip correlation. 
 
-# segmental_analyses.py 
+## segmental_analyses.py 
 Exploratory data analysis for topic modeling output. Takes segmental_modeling.py output & produces a series of covariance matrices to compare model with varying n topics chosen. 
 
 #### reference 
