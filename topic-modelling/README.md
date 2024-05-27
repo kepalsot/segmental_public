@@ -8,9 +8,8 @@ Each workbook is a collection of a single participant’s annotations, where eac
 # scripts 
 ## segmental_preprocessing.py
 Takes in the raw annotation workbooks and sorts data into movie clip-specific aggregates of each participant’s annotations, saving the second-by-second annotation resolution while allowing a topic model to be generated over the corpus of all movie clip annotations. Text preprocessing is also performed:
-Remove stopwords & non-alphanumeric tokens 
-Option to keep mixed tokens (those with 1> alphanumeric character)
-Lemmatize remaining tokens 
+1. Remove stopwords & non-alphanumeric tokens. Option is given to keep mixed tokens (those with 1> alphanumeric character)
+2. Lemmatize remaining tokens 
 
 
 ## segmental_modelling.py
